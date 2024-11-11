@@ -1,0 +1,40 @@
+/* sidebar.css */
+.sidebar {
+    padding: 0;
+    height: 100vh; /* 占满视口高度 */
+    width: 17rem; /* 设置侧边栏宽度 */
+    position: fixed; /* 固定侧边栏到左侧 */
+    left: 0; /* 确保侧边栏贴左边 */
+    top: 0; /* 从页面顶部开始 */
+    display: flex;
+    flex-direction: column; /* 垂直排列子元素 */
+    border-right: 2px solid #D3D3D3; /* 只给右边添加实线边框 */
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1); /* 给边框阴影效果 */
+}
+
+.header {
+    display: flex;
+    align-items: center; /* 图标和文字垂直居中 */
+    padding: 1rem;
+}
+
+.header img {
+    height: 2rem;
+    margin-right: 0.5rem; /* 图标和文字之间的间距 */
+}
+.header h2 {
+    margin-top: 1rem; /* 确保有一定间距 */
+    color: #2596be;
+}
+.user_pic{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #2596be;
+    align-items: center;
+}
+.user_pic img{
+    border-radius: 50%; /* 圆形头像 */
+    height: 8rem;
+    width: 8rem;
+}
