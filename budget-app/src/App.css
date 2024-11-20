@@ -1,5 +1,62 @@
 /* app.css */
 .app-content {
-  margin-left: 17rem; /* 侧边栏宽度，确保内容不被覆盖 */
-  padding: 1rem; /* 添加内边距，避免内容贴边 */
+  margin-left: 15%;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* 背景颜色 */
+  color: #333; /* 文字颜色 */
+}
+
+.transaction_List {
+  width: 25rem;
+  margin-top: 20px;
+  background-color: #ffffff; /* 背景白色 */
+  border-radius: 10px; /* 圆角效果 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  padding: 1rem;
+}
+
+.transaction_item {
+  display: flex;
+  font-size: 18px; /* 调整字体大小 */
+  font-weight: 500; /* 加粗文字 */
+  justify-content: space-between; /* 间隔均匀 */
+  align-items: center;
+  padding: 10px 15px; /* 内边距 */
+  background-color: #f5f5f5; /* 单个项目背景色 */
+  border-radius: 5px; /* 圆角 */
+  margin-bottom: 10px; /* 间距 */
+  transition: transform 0.2s, box-shadow 0.2s; /* 动效 */
+}
+
+.sort_button {
+  margin-left: 110px;
+  color:gray;
+  border-width: 0cap;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.sort_button :hover{
+  border-width: 0cap;
+  background-color:rgb(0, 122, 230)
+}
+.active{
+  color: #333;
+}
+.transaction_item_date {
+  width: 10rem;
+  text-align: left; /* 日期左对齐 */
+}
+
+.transaction_item_category {
+  width: 10rem;
+  text-align: left; /* 类别左对齐 */
+  font-style: italic; /* 斜体 */
+}
+
+.transaction_item_amount {
+  width: 8rem;
+  text-align: right; /* 金额右对齐 */
+  color: cadetblue;
+  font-weight: bold; /* 加粗 */
 }

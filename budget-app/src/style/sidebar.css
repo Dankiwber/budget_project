@@ -2,7 +2,7 @@
 .sidebar {
     padding: 0;
     height: 100vh; /* 占满视口高度 */
-    width: 17rem; /* 设置侧边栏宽度 */
+    width: 15%; /* 设置侧边栏宽度 */
     position: fixed; /* 固定侧边栏到左侧 */
     left: 0; /* 确保侧边栏贴左边 */
     top: 0; /* 从页面顶部开始 */
@@ -15,7 +15,8 @@
 .header {
     display: flex;
     align-items: center; /* 图标和文字垂直居中 */
-    padding: 1rem;
+    padding: 1.2rem;
+
 }
 
 .header img {

@@ -42,6 +42,9 @@ function Sidebar() {
           <h3>Welcome back, {user}!</h3> /* 显示用户名 */
         )}
       </div>
+      <div className='dashboard_content'>
+      
+      </div>
     </div>
   );
 }
